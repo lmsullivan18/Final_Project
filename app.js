@@ -53,7 +53,7 @@ let viz;
 //Add Share Link to Tableau Public in here
 const url2 = "https://public.tableau.com/views/DashboardImages/NormalizedDeathbyRace?:language=en&:display_count=y&:origin=viz_share_link";
 
-const vizContainer = document.getElementById('vizContainer');
+const vizContainer2 = document.getElementById('vizContainer2');
 const options = {
     hideTabs: true,
     height: 1000,
