@@ -51,7 +51,7 @@ exportImage.addEventListener("click", function () {
 let viz;
 
 //Add Share Link to Tableau Public in here
-const url = "https://public.tableau.com/views/DashboardImages/NormalizedDeathbyRace?:language=en&:display_count=y&:origin=viz_share_link";
+const url2 = "https://public.tableau.com/views/DashboardImages/NormalizedDeathbyRace?:language=en&:display_count=y&:origin=viz_share_link";
 
 const vizContainer = document.getElementById('vizContainer');
 const options = {
@@ -68,7 +68,7 @@ const options = {
 //create a function to generate the viz element
 function initViz() {
     console.log('Executing the initViz function!');
-    viz = new tableau.Viz(vizContainer, url, options);
+    viz = new tableau.Viz(vizContainer2, url2, options);
 }
 
 // run the initViz function when the page loads
